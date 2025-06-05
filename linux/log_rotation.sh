@@ -1,5 +1,12 @@
 #!/bin/bash
 
+########################
+# Your application writes logs to /var/log/myapp/. You want to:
+#    Compress logs older than 7 days
+#    Delete logs older than 30 days
+#    Automate it via a daily cron job
+#########################
+
 # Directory where logs are stored
 LOG_DIR="/var/log/myapp"
 LOG_FILE="/var/log/myapp/log_rotation.log"
