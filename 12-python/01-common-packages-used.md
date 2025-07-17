@@ -98,5 +98,5 @@ Some commonly used Python packages for DevOps Engineers include `boto3`, `parami
            return a + b
 
        def test_add():
-```
            assert add(2, 3) == 5
+```
